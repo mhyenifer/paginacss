@@ -1,0 +1,49 @@
+
+    body *{
+        box-sizing: border-box;
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    header{
+        background-image: linear-gradient(blue,aqua,rgb(79, 79, 102)); 
+        
+    }
+
+    header img{
+        margin: auto;
+        width:100;
+    }
+
+    header h1,
+    header h2{
+        text-align: center;
+
+    }
+
+    header nav{
+        background-color: lightseagreen ;
+    }
+
+    nav li{
+        display: inline-block;
+    }
+    
+    header a{
+        color: black;
+        padding: 30px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        background: lightslategray;
+
+    }
+    main{
+        background-color: whitesmoke;
+    }
+    a:hover{
+        background:  #7DCEA0;
+        
+    }

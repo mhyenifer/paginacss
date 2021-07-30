@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Encabezado-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica html</title>
+
+
+    <style>
+        body *{
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 10;
+            padding: 10;
+
+        }
+        
+        header{
+             background: #73C6B6; 
+        }
+
+        header img{
+            margin: auto;
+            width: 100px;
+            
+        }
+           
+        header h1,
+        header h2{
+            text-align: center;
+        }
+       
+       table {
+          width: 100%;
+          border: 1px solid lightseagreen;
+        }
+        
+        th, td {
+            width: 25%;
+            text-align: left;
+            vertical-align:auto;
+            border: 1px solid lightseagreen;
+            color:lightcoral
+        }
+
+        tr{
+            color: lime;
+        }
+        main section{
+            text-align: justify;
+            color:lightseagreen;
+        }
+    </style>
+
+
+</head>
+<!--Cuerpo-->
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png" alt="logotipo">
+        <h1>Desarrollo Web</h1>
+        <h2> Introduccion a HTML 5 </h2>
+    </header>
+
+    <main>
+        <section>
+            <h2>Elementos HTML</h2>
+            <table>
+                <thead>
+                    <tr><th>No.:</th><th>Elemento</th><td>Definicion</td></tr>
+                </thead>
+                <tbody>   
+                    <tr><td>1.</td><td>html</td><td><p>Representa la raiz de un documento HTML. El resto de elementos descienden de este elemento.</p></td></tr> 
+                    <tr><td>2.</td><td>base</td><td><p>Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento base en un documento.</p></td></tr>    
+                    <tr><td>3.</td><td>head</td><td><p>Provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos.</p></td></tr>    
+                </tbody>
+              </table>
+        </section>
+        <hr>
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+        <h3>Copyright Yenifer 2021</h3>
+    </footer>
+</body>
+</html>
